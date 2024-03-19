@@ -21,6 +21,7 @@ def convert_currency(amount, from_currency, to_currency):
 
 def main():
     st.title("Currency Converter")
+    st.subheader("Created by- Anjil Singh Thakur")
 
     amount = st.number_input("Enter the amount to convert:", min_value=0.01, step=0.01)
 
